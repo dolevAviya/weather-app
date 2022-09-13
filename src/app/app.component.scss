@@ -1,0 +1,16 @@
+.toggle {
+  gap: 5px;
+  z-index: 10;
+  right: 16px;
+  display: flex;
+  cursor: pointer;
+  font-size: 20px;
+  position: absolute;
+  align-items: center;
+  justify-content: space-between;
+
+  p {
+    font-size: 14px;
+    font-family: "Roboto Light", sans-serif;
+  }
+}

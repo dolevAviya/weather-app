@@ -1,0 +1,23 @@
+@import "src/styles";
+
+.search-bar {
+  padding: 1px;
+  width: 450px;
+  display: flex;
+  margin: 25px auto;
+  align-items: baseline;
+  border-bottom: 1px solid gray;
+  justify-content: space-between;
+
+  i {
+    color: var(--icon);
+  }
+
+  .fa-xmark {
+    cursor: pointer;
+  }
+
+  input {
+    flex-grow: 1;
+  }
+}

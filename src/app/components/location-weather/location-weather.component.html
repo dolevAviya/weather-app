@@ -1,0 +1,24 @@
+<div class="card" *ngIf="fiveDaysWeather">
+  <div class="heading">
+    <h1>{{location?.LocalizedName}}, {{location?.Country?.LocalizedName}}</h1>
+    <i class="fa-regular fa-heart" (click)="toggleLocationWishlist()" *ngIf="!isLocationClicked"></i>
+    <i class="fa-solid fa-heart" (click)="toggleLocationWishlist()" *ngIf="isLocationClicked"></i>
+  </div>
+  <h3 class="weather-text">{{fiveDaysWeather.Headline.Text}}</h3>
+  <ul>
+    <li class="one-day-card" *ngFor="let day of fiveDaysWeather.DailyForecasts">
+      <p>{{day.Date | date:'EEE'}}</p>
+      <img src="assets/weather-icons/{{day.Day.Icon}}.svg">
+      <div class="temp day">
+        <p>{{day.Temperature.Maximum.Value}} </p>
+        <i class="fa-regular fa-circle"></i>
+        <i class="fa-solid fa-c temp-unit"></i>
+      </div>
+      <div class=" temp night">
+        <p> {{day.Temperature.Minimum.Value}}</p>
+        <i class="fa-regular fa-circle"></i>
+        <i class="fa-solid fa-c temp-unit"></i>
+      </div>
+    </li>
+  </ul>
+</div>

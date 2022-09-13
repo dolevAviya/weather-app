@@ -1,0 +1,82 @@
+@import "src/styles";
+
+.card {
+  width: 60%;
+  height: 70%;
+  margin: auto;
+  padding: 20px;
+  justify-content: space-around;
+
+  .heading {
+    display: flex;
+    margin: 0 10px;
+    justify-content: space-between;
+
+    h1 {
+      margin: 0;
+    }
+
+    i {
+      font-size: 25px;
+      cursor: pointer;
+      color: var(--icon);
+    }
+  }
+
+  .weather-text {
+    margin-top: 30px;
+    font-weight: normal;
+    font-family: Roboto, sans-serif;
+  }
+
+  ul {
+    gap: 20px;
+    padding: 0;
+    display: flex;
+    margin-top: 25px;
+    list-style: none;
+    box-sizing: border-box;
+
+    li {
+      width: 100%;
+      padding: 10px;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: space-between;
+
+      img {
+        margin: 10px;
+        height: 70px;
+        filter: invert(54%) sepia(34%) saturate(692%) hue-rotate(134deg) brightness(92%) contrast(97%);
+      }
+
+      p {
+        margin: 0;
+      }
+
+      .temp {
+        display: flex;
+
+        i {
+          font-size: 7px;
+
+          &.temp-unit {
+            padding-bottom: 2px;
+            align-self: flex-end;
+          }
+        }
+
+        &.day {
+          font-size: 18px;
+          margin-bottom: 5px;
+        }
+
+        &.night {
+          color: gray;
+          font-size: 15px;
+        }
+      }
+    }
+  }
+}

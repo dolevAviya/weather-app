@@ -1,0 +1,16 @@
+<div class="card" *ngIf="currentWeather">
+  <div class="heading">
+    <h2 (click)="redirect()">{{currentWeather.weather.LocalSource?.Name}}</h2>
+    <i class="fa-regular fa-heart" (click)="toggleLocationWishlist()" *ngIf="!isLocationClicked"></i>
+    <i class="fa-solid fa-heart" (click)="toggleLocationWishlist()" *ngIf="isLocationClicked"></i>
+  </div>
+  <div class="content" (click)="redirect()">
+      <img src="assets/weather-icons/{{currentWeather.weather.WeatherIcon}}.svg">
+    <h4 class="weather-text">{{currentWeather.weather.WeatherText}}</h4>
+      <div class="temp">
+        <p>{{currentWeather.weather.Temperature.Metric.Value}} </p>
+        <i class="fa-regular fa-circle"></i>
+        <i class="fa-solid fa-c temp-unit"></i>
+      </div>
+  </div>
+</div>

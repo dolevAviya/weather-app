@@ -1,0 +1,15 @@
+<app-top-bar></app-top-bar>
+
+<div *ngIf="!isDarkMode; else darkMode" (click)="toggleTheme()" class="toggle">
+  <i class="fa-solid fa-toggle-off"></i>
+  <p>Dark Mode</p>
+</div>
+
+<router-outlet></router-outlet>
+
+<ng-template #darkMode>
+  <div (click)="toggleTheme()" class="toggle">
+    <i class="fa-solid fa-toggle-on"></i>
+    <p>Light Mode</p>
+  </div>
+</ng-template>

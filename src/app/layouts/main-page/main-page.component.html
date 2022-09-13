@@ -1,0 +1,5 @@
+<div class="layout">
+  <app-search-bar (selectedLocation)="select_location($event)"></app-search-bar>
+  <app-location-weather [fiveDaysWeather]="fiveDays" [location]="currentLocation"></app-location-weather>
+</div>
+

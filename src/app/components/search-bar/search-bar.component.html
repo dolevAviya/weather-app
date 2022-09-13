@@ -1,0 +1,16 @@
+<div class="search-container">
+  <div class="search-bar">
+    <input placeholder="search a location.." [(ngModel)]="searchValue"
+           (ngModelChange)="handleSearch($event)" list="autocomplete">
+    <i *ngIf="searchValue.length === 0" class="fa fa-search"></i>
+    <i *ngIf="searchValue.length > 0" class="fa fa-xmark"
+       (click)="searchValue =''; handleSearch('')"></i>
+  </div>
+  <datalist id="autocomplete">
+    <option *ngFor="let result of autocompleteResults"
+            [value]="result.LocalizedName">
+      {{result.LocalizedName}}</option>
+  </datalist>
+</div>
+
+

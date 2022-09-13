@@ -1,0 +1,27 @@
+@import "src/styles";
+
+.top-bar-container {
+  color: white;
+  display: flex;
+  padding: 5px 25px;
+  background: var(--card);
+  justify-content: space-between;
+  box-shadow: 0 3px 2px -2px var(--border);
+  font-family: Roboto, sans-serif;
+
+  .nav-items {
+    gap: 30px;
+    display: flex;
+
+    .nav-item {
+      gap: 12px;
+      display: flex;
+      align-items: baseline;
+      cursor: pointer;
+
+      &:hover {
+        color: #a5e3e7;
+      }
+    }
+  }
+}

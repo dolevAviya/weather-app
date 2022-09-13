@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <g id="ic_weather_26" transform="translate(378 881)">
+    <rect id="Rectangle_7" data-name="Rectangle 7" width="48" height="48" transform="translate(-378 -881)" fill="#ffd2d2" opacity="0"/>
+    <g id="Group_42" data-name="Group 42" transform="translate(25.2 -9.59)">
+      <path id="Path_176" data-name="Path 176" d="M488.87,677.815c0,4.275-3.843,7.753-8.454,7.753H459.164a8.455,8.455,0,0,1-8.387-7.282,7.6,7.6,0,0,1-.077-1.134,8.445,8.445,0,0,1,8.464-8.406,8.338,8.338,0,0,1,3.468.74c.3-4.035,3.978-7.215,8.445-7.215a8.917,8.917,0,0,1,3.2.586,7.772,7.772,0,0,1,5.255,7.167v.1a8.542,8.542,0,0,1,.874,0,8.916,8.916,0,0,1,5.265,1.681,7.688,7.688,0,0,1,1.528,1.451A7.3,7.3,0,0,1,488.87,677.815Z" transform="translate(-852.9 -1522.419)" fill="none" stroke="#6d6e71" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Path_177" data-name="Path 177" d="M489.67,666.031a6.812,6.812,0,0,1-3.036,5.592,8.916,8.916,0,0,0-5.265-1.681,8.525,8.525,0,0,0-.874,0v-.1a7.772,7.772,0,0,0-5.255-7.167,7.782,7.782,0,0,1,6.725-3.708C486.24,659,489.67,662.15,489.67,666.031Z" transform="translate(-853.863 -1522.29)" fill="none" stroke="#6d6e71" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <line id="Line_273" data-name="Line 273" y2="3.315" transform="translate(-371.86 -870.41)" fill="none" stroke="#6d6e71" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <line id="Line_274" data-name="Line 274" x2="2.565" y2="2.344" transform="translate(-382.793 -866.26)" fill="none" stroke="#6d6e71" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <line id="Line_275" data-name="Line 275" x2="2.556" y2="2.344" transform="translate(-362.214 -849.053)" fill="none" stroke="#6d6e71" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <line id="Line_276" data-name="Line 276" x2="3.622" transform="translate(-360.033 -856.258)" fill="none" stroke="#6d6e71" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <line id="Line_277" data-name="Line 277" y1="2.344" x2="2.556" transform="translate(-363.492 -866.26)" fill="none" stroke="#6d6e71" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <line id="Line_278" data-name="Line 278" y2="9.05" transform="translate(-381.496 -833.46)" fill="none" stroke="#6d6e71" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <line id="Line_279" data-name="Line 279" y2="10.827" transform="translate(-377 -836.121)" fill="none" stroke="#6d6e71" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <line id="Line_280" data-name="Line 280" y2="10.827" transform="translate(-386.011 -836.121)" fill="none" stroke="#6d6e71" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

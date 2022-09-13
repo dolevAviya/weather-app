@@ -1,0 +1,68 @@
+@import "src/styles";
+
+.card {
+  height: 100%;
+
+  .heading {
+    margin: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    h2 {
+      margin: 0;
+      cursor: pointer;
+    }
+
+    i {
+      cursor: pointer;
+      font-size: 18px;
+      color: var(--icon);
+    }
+  }
+
+
+  .content {
+    padding: 0;
+    flex-grow: 1;
+    display: flex;
+    cursor: pointer;
+    margin-bottom: 10px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+
+    .weather-text {
+      margin: 3px;
+    }
+
+    img {
+      margin: 5px;
+      height: 70px;
+      filter: invert(54%) sepia(34%) saturate(692%) hue-rotate(134deg) brightness(92%) contrast(97%);
+    }
+
+    p {
+      margin: 0;
+    }
+
+    .temp {
+      display: flex;
+      font-size: 20px;
+      flex-direction: row;
+
+      i {
+        font-size: 7px;
+
+        &.temp-unit {
+          padding-bottom: 2px;
+          align-self: flex-end;
+        }
+
+        &.fa-circle {
+          align-self: flex-start;
+        }
+      }
+    }
+  }
+}
